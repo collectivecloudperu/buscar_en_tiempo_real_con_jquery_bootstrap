@@ -30,7 +30,7 @@
 
             (function ($) {
 
-                $('#filter').keyup(function () {
+                $('#filtrar').keyup(function () {
 
                     var rex = new RegExp($(this).val(), 'i');
                     $('.buscar tr').hide();
@@ -51,7 +51,7 @@
 	    <h1>Disco: Dash Berlin - The New Daylight</h1>
 
       <div class="input-group"> <span class="input-group-addon">Buscar</span>
-        <input id="filter" type="text" class="form-control" placeholder="Ingresa la canción de este Disco que deseas Buscar...">
+        <input id="filtrar" type="text" class="form-control" placeholder="Ingresa la canción de este Disco que deseas Buscar...">
       </div>
 
 	    <table class="table table-hover">
