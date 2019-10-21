@@ -60,7 +60,7 @@
             <th>ID</th>
             <th>Nº</th>
             <th>Canción</th>
-            <th>+ (Array)</th>            
+            <th>Detalles</th>            
             <th>Reproducir</th>
           </tr>
         </thead>
